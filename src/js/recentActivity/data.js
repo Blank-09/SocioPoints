@@ -8,7 +8,7 @@ const data = [
 ];
 
 for (var i = 0; i < 7; i++) {
-  const isGained = Math.floor(Math.random() * 2);
+  const isGained = Math.random() < 0.7;
 
   var obj = {
     title: "Day " + (i + 1),
